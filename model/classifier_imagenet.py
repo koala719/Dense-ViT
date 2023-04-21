@@ -18,12 +18,12 @@ import pytorch_lightning as pl
 from pytorch_lightning.core import LightningModule
 
 
-from .layer.bvit import BViT_Ti, BViT_B
+from .layer.denseViT import dDeiT_Ti, dDeiT_B
 
 
 Models = dict(
-BViT_5=BViT_Ti,
-BViT_21=BViT_B,
+dDeiT_Ti=dDeiT_Ti,
+dDeiT_B=dDeiT_B,
 )
 
 
